@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/gym"
+        android:id="@+id/homenaav"
+
+        />
+    <item android:title="Diet"
+        
+        android:icon="@drawable/nutrition_outline_svgrepo_com"
+        android:id="@+id/dietnav"
+        />
+    <item android:title="report"
+
+        android:icon="@drawable/progress"
+        android:id="@+id/reportnav"
+        />
+    <item android:title="profile"
+
+        android:icon="@drawable/fit"
+        android:id="@+id/profilenav"
+        />
+
+</menu>

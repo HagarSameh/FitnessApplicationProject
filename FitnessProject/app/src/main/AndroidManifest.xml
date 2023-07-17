@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitnessProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".planActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportPage"
+            android:exported="false"
+            android:label="@string/title_activity_report_page" />
+        <activity
+            android:name=".diet"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".dialogbox"
+            android:exported="false" />
+        <activity
+            android:name=".privacypolicy"
+            android:exported="false" />
+        <activity
+            android:name=".remindeerrr"
+            android:exported="false" />
+        <activity android:name=".settingpage" />
+        <activity
+            android:name=".userprofile"
+            android:exported="false" />
+        <activity
+            android:name=".setreminder"
+            android:exported="false" />
+        <activity
+            android:name=".setgoal"
+            android:exported="false" />
+        <activity
+            android:name=".height"
+            android:exported="false" />
+        <activity
+            android:name=".firstScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ankle"
+            android:exported="false" />
+        <activity
+            android:name=".sprinter"
+            android:exported="false" />
+        <activity
+            android:name=".reversecrunshes"
+            android:exported="false" />
+        <activity
+            android:name=".tpress"
+            android:exported="false" />
+        <activity
+            android:name=".hugknee"
+            android:exported="false" />
+        <activity
+            android:name=".sidelunge"
+            android:exported="false" />
+        <activity
+            android:name=".overtwist"
+            android:exported="false" />
+        <activity
+            android:name=".sholder"
+            android:exported="false" />
+        <activity
+            android:name=".updown"
+            android:exported="false" />
+        <activity
+            android:name=".singleleg"
+            android:exported="false" />
+        <activity
+            android:name=".backleg"
+            android:exported="false" />
+        <activity
+            android:name=".lungkick"
+            android:exported="false" />
+        <activity
+            android:name=".squats"
+            android:exported="false" />
+        <activity
+            android:name=".highknee"
+            android:exported="false" />
+        <activity
+            android:name=".DetailedLegView"
+            android:exported="false" />
+        <activity
+            android:name=".Leg"
+            android:exported="false" />
+        <activity
+            android:name=".Belly"
+            android:exported="false" />
+        <activity
+            android:name=".TipsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Arm"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

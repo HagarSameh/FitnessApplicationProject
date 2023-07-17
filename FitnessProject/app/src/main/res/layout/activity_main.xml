@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F8F9FB"
+    >
+
+<!--    <View-->
+<!--        android:id="@+id/top_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:background="@drawable/bg_view" />-->
+
+
+<!--    <GridLayout-->
+<!--        android:id="@+id/gridView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@+id/top_view"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="3dp"-->
+<!--        android:layout_marginLeft="24dp"-->
+<!--        android:layout_marginTop="138dp"-->
+<!--        android:layout_marginRight="24dp"-->
+<!--        android:layout_marginBottom="138dp"-->
+<!--        android:columnCount="2"-->
+<!--        android:rowCount="1">-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/d2"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_column="1"-->
+<!--            android:layout_margin="15dp"-->
+<!--            app:cardCornerRadius="15dp"-->
+
+<!--            app:cardElevation="12dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:src="@drawable/wellness"></ImageView>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:text="Healthy lifestyle"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textStyle="bold"></TextView>-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/d1"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_column="0"-->
+<!--            android:layout_margin="15dp"-->
+<!--            app:cardCornerRadius="15dp"-->
+<!--            app:cardElevation="12dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:src="@drawable/personn"></ImageView>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:text="Workouts"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textStyle="bold"></TextView>-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--    </GridLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:layout_centerHorizontal="true"-->
+<!--android:layout_marginTop="50dp"-->
+<!--        android:text="Choose your need"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="35dp"-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        ></LinearLayout>-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:layout_marginTop="45dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="30dp"
+
+        android:text="What is your focus part?" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:layout_marginBottom="30sp"
+        android:src="@drawable/homepicc"
+
+
+        ></ImageView>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="198dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/pointeer"
+        android:onClick="onArmClicked"
+        ></View>
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/pointeer"
+        android:onClick="onBellyClicked"
+        ></View>
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/pointeer"
+        android:onClick="onLegClicked"
+        ></View>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNVHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_home"
+        android:background="@drawable/bottom_background"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="labeled"
+
+        />
+
+
+
+
+</RelativeLayout>
+
